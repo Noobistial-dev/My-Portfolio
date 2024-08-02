@@ -1,0 +1,375 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #d1d1d1;
+
+}
+
+a {
+    text-decoration: none;
+  }
+  #firstsection {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 0px;
+    margin-top: 20px;
+  }
+
+body {
+    background-color:  #211f1f;
+    border: 40px solid #292828;
+    border-bottom: 10px;
+   
+
+   
+}
+
+nav {
+
+
+    background-color: #292828;
+    display: flex;
+    justify-content: space-between;
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 600;
+}
+
+.edudiv2{
+    text-align: center;
+    word-wrap: normal;
+    
+      width: 180px;
+      height: 210px;
+      position: relative;
+      margin:25px;
+  
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .40);
+      overflow: hidden;
+    
+    
+}
+
+
+#logo {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #D1D1D1;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#profile {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    border: 8px solid #D1D1D1;
+    border-radius: 50%
+}
+
+#profile:hover {
+    box-shadow: 0px 15px 20px #007bff;
+    color: #fff;
+    transform: translateY(-7px);
+
+}
+.probtn{
+    box-shadow: 0px 15px 20px #007bff;
+    color: #fff;
+    transform: translateY(-7px);
+
+}
+
+    
+
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    margin: 110px;
+
+}
+
+#left {
+    display: flex;
+    justify-content: left;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 10px 22px;
+    padding: 0.5em 1.1em;
+    font-size: 12px;
+    color: #000;
+    background-color: #1a1919;
+    border: 2px solid #007bff;
+    border-radius: 45px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+}
+
+li:hover {
+    background-color: #007bff;
+    box-shadow: 0px 10px 15px #007bff;
+    color: #fff;
+    transform: translateY(-4px);
+
+}
+
+button {
+    padding: 0.5em 1.8em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+    color: #000;
+    background-color: #1a1919;
+    border: 2px solid #007bff;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #007bff;
+    box-shadow: 0px 15px 20px #007bff;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+button:active {
+    transform: translateY(-1px);
+}
+
+hr {
+    margin: 20px 20px;
+    
+}
+
+#education {
+    display: flex;
+    justify-content: space-around;
+}
+
+.images {
+    margin-top: 25px;
+    height: 80px;
+    width: 80px;
+    border: 2px solid #d1d1d1;
+    border-radius: 50%;
+
+}
+.images:hover {
+    box-shadow: 0px 15px 20px #007bff;
+    color: #fff;
+    transform: translateY(-7px);
+
+}
+
+.edudiv {
+
+    text-align: center;
+    word-wrap: normal;
+    margin-bottom: 35px;
+    width: 150px;
+      height: 180px;
+      position: relative;
+      margin:35px;
+  
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+      overflow: hidden;
+
+
+}
+
+.edudiv h2 {
+    margin-top: 15px;
+}
+p{
+  font-size: small;
+}
+.row1{
+  display:flex;
+  justify-content: space-evenly;
+  
+  
+}
+.row2{
+  display:flex;
+  justify-content:space-evenly;
+  
+}
+
+.card-container {
+    width: 180px;
+    height: 220px;
+    position: relative;
+    margin:10px;
+
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+  }
+  
+  .card {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    
+
+  }
+  
+  .card .front-content {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 50px;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+  }
+  
+  .card .front-content p {
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    
+    background: linear-gradient(-45deg, #dadada 0%, #007bff 100% );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+  }
+  
+  .card .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    background: linear-gradient(-45deg, #a1b3e9 0%, #007bff 100%  );
+    color: #0b0b0b;
+    padding: 0px;
+    line-height: 1.5;
+    border-radius: 5px;
+    pointer-events: none;
+    transform: translateY(96%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .card .content .heading {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .card:hover .content {
+    transform: translateY(0);
+  }
+  
+  .card:hover .front-content {
+    transform: translateY(-30%);
+  }
+  
+  .card:hover .front-content p {
+    opacity: 0;
+  }
+  footer{
+    height: 150px;
+    background-color:#2f2f31 ;
+   
+  }
+  
+  #contact{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    
+
+
+  }
+  
+  .social {
+    display: flex;
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+  }
+  .social .social-link1,.social .social-link2,.social .social-link3,.social .social-link4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:25%;
+    text-decoration: none;
+    transition: 0.25s;
+    border-radius: 25px;
+    cursor:pointer;
+    
+
+    
+  }
+  .social .social-link1:hover {
+    background: linear-gradient(25deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    animation: bounce 0.4s linear;
+   
+
+  }
+  
+  .social .social-link2:hover {
+    background-color: #732a72;
+    animation: bounce 0.4s linear;
+  }
+  
+  .social .social-link3:hover {
+    background-color: #5865f2;
+    animation: bounce 0.4s linear;
+  }
+  
+  .social .social-link4:hover {
+    background-color: #12a50b;
+    animation: bounce 0.4s linear;
+  }
+   
+  @keyframes bounce{
+    40% {
+      transform: scale(1.4);
+    }
+  
+    60% {
+      transform: scale(0.8);
+    }
+  
+    80% {
+      transform: scale(1.2);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  

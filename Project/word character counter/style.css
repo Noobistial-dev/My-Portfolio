@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    background-color: #1a1919;
+    color: aliceblue;
+    text-decoration:solid;
+    padding: 10px;
+    margin: 0px;
+}
+body{
+    padding: 50px 100px;
+    background-color: #051f38;
+}
+textarea{
+    width: 99.3%;
+    border: 2px solid rgb(69, 69, 138);
+    height: 400px;
+    background-color: #70a2d4;
+    font-size: 20px;
+    color: white;
+}
+p{
+    text-align: center;
+    background-color: #232629;
+    font-size: 30px;
+    color: aliceblue;
+}
